@@ -14,4 +14,8 @@ A web application made with HTML, CSS, and Javascript. When we click on a card ,
 
 ##  Infinite Scroll | [Directory](https://github.com/arunkanaujia23/Web_Projects/tree/Infinite_Scroll) | [Live](https://snazzy-tanuki-fae6d6.netlify.app/)
 
-A web application made with HTML, CSS, Javascript, and API This has an infinite scroll of an image that was obtained using the Unsplash API. When we click on the image, it will redirect to the source image.
+A web application made with HTML, CSS, Javascript, and API. This has an infinite scroll of an image that was obtained using the Unsplash API. When we click on the image, it will redirect to the source image.
+
+##  Jokes Teller | [Directory](https://github.com/arunkanaujia23/Web_Projects/tree/Jokes_Teller) | [Live](https://bucolic-youtiao-211580.netlify.app/)
+
+A web application made with HTML, CSS, Javascript, and API. In we fetch jokes from jokes API and we can listen and read jokes.
