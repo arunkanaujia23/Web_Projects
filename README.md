@@ -1,2 +1,2 @@
-# Quote Generator | [Code](https://github.com/arunkanaujia23/Web_Projects/tree/Quote_Generator) | [Live](https://resilient-raindrop-ed6642.netlify.app//)
-A web application created using HTML, CSS, and JavaScript.In this section, we pull random quotes from the API and display them.
+# VoolayVoo | [Code](https://github.com/arunkanaujia23/Web_Projects/tree/VoolayVoo) | [Live](https://resplendent-cannoli-01476e.netlify.app/)
+A web UI create with HTML CSS and Bootstrap
