@@ -11,15 +11,378 @@
     <script src="https://kit.fontawesome.com/917aa4b7d7.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/style.css">
 
-    <title>Bootstrap Template</title>
+    <title>VoolayVoo</title>
 </head>
 
 <body>
 
-    <main class="text-center">
-
-        <h1 class="display-1">Bootstrap Template</h1>
-    </main>
+    <header>
+        <div class="top__header">
+          <div class="search__bar position-relative">
+            <input type="text" placeholder="Search for Voopons, Events, Promoters , Businesses..." />
+            <div class="search__icon d-flex align-items-center justify-content-center">
+              <svg width="15" height="16" viewBox="0 0 15 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M11.8374 11.5128L15 14.8855L13.9552 16L10.7933 12.6266C9.61682 13.6325 8.15349 14.1797 6.64566 14.1774C2.97726 14.1774 0 11.0017 0 7.08871C0 3.17574 2.97726 0 6.64566 0C10.3141 0 13.2913 3.17574 13.2913 7.08871C13.2935 8.69706 12.7805 10.2579 11.8374 11.5128ZM10.3562 10.9284C11.2933 9.90047 11.8166 8.52254 11.8145 7.08871C11.8145 4.04214 9.50108 1.57527 6.64566 1.57527C3.7895 1.57527 1.47681 4.04214 1.47681 7.08871C1.47681 10.1345 3.7895 12.6021 6.64566 12.6021C7.98988 12.6044 9.28169 12.0462 10.2454 11.0466L10.3562 10.9284Z"
+                  fill="white" />
+              </svg>
+            </div>
+          </div>
+          <div class="avatar__container">
+            <div class="profile__image__container">
+              <img src="./assets/header/unsplash_3mMvCsW6ZYs.png" alt="profile" />
+            </div>
+            <p>Welcome Danny</p>
+            <svg class="ms-1" width="9" height="5" viewBox="0 0 9 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M4.5 5L8.39711 0.5H0.602886L4.5 5Z" fill="white" />
+            </svg>
+          </div>
+          <div class="ms-2">
+            <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M22.75 14.5128V12.25H21V14.875C21 15.107 21.0923 15.3296 21.2564 15.4936L23.625 17.8622V19.25H4.375V17.8622L6.74362 15.4936C6.90773 15.3296 6.99995 15.107 7 14.875V11.375C6.99756 10.1454 7.31964 8.93702 7.9337 7.87178C8.54776 6.80654 9.43206 5.9222 10.4973 5.30811C11.5625 4.69401 12.7709 4.37189 14.0005 4.37428C15.23 4.37668 16.4372 4.7035 17.5 5.32175V3.36612C16.6671 2.99733 15.7812 2.76227 14.875 2.66963V0.875H13.125V2.66875C10.9678 2.88832 8.96854 3.89998 7.51395 5.50811C6.05936 7.11624 5.25271 9.20661 5.25 11.375V14.5128L2.88137 16.8814C2.71727 17.0454 2.62505 17.268 2.625 17.5V20.125C2.625 20.3571 2.71719 20.5796 2.88128 20.7437C3.04538 20.9078 3.26794 21 3.5 21H9.625V21.875C9.625 23.0353 10.0859 24.1481 10.9064 24.9686C11.7269 25.7891 12.8397 26.25 14 26.25C15.1603 26.25 16.2731 25.7891 17.0936 24.9686C17.9141 24.1481 18.375 23.0353 18.375 21.875V21H24.5C24.7321 21 24.9546 20.9078 25.1187 20.7437C25.2828 20.5796 25.375 20.3571 25.375 20.125V17.5C25.375 17.268 25.2827 17.0454 25.1186 16.8814L22.75 14.5128ZM16.625 21.875C16.625 22.5712 16.3484 23.2389 15.8562 23.7312C15.3639 24.2234 14.6962 24.5 14 24.5C13.3038 24.5 12.6361 24.2234 12.1438 23.7312C11.6516 23.2389 11.375 22.5712 11.375 21.875V21H16.625V21.875Z"
+                fill="white" />
+              <path
+                d="M22.75 10.5C24.683 10.5 26.25 8.933 26.25 7C26.25 5.067 24.683 3.5 22.75 3.5C20.817 3.5 19.25 5.067 19.25 7C19.25 8.933 20.817 10.5 22.75 10.5Z"
+                fill="white" />
+            </svg>
+          </div>
+        </div>
+        <nav class="container my-1 d-flex justify-content-between align-items-center position-relative">
+          <div class="logo__container">
+            <img src="./assets/header/logo.svg" alt="" />
+            <img src="./assets/header/logo__text.svg" alt="" />
+          </div>
+          <div class="nav__links__container">
+            <ul>
+              <li><a class="nav__link" href="#About">About</a></li>
+              <li><a class="nav__link" href="#Voopons">Voopons</a></li>
+              <li><a class="nav__link" href="#Events">Events</a></li>
+              <li><a class="nav__link" href="#Businesses">Businesses</a></li>
+              <li><a class="nav__link" href="#Promoters">Promoters</a></li>
+              <li><button>Join Us</button></li>
+            </ul>
+          </div>
+          <div class="nav__dropdown container">
+            <div class="row g-0 container m-auto justify-content-between">
+              <div class="col-3">
+                <h3>Investments</h3>
+                <ul>
+                  <li>
+                    <a href="#Rsa">Regular Savings Accounts</a>
+                  </li>
+                  <li><a href="#dsa">Deluxe Savings Accounts</a></li>
+                  <li><a href="#ssa">Super Savings Accounts</a></li>
+                  <li><a href="#fsa">Family Savings Accounts</a></li>
+                </ul>
+              </div>
+              <div class="col-3">
+                <h3>Fixed Deposits</h3>
+                <ul>
+                  <li><a href="#sa">Savings Accounts</a></li>
+                  <li><a href="#Deposits">Deposits</a></li>
+                </ul>
+              </div>
+              <div class="col-3">
+                <h3>Main Accounts</h3>
+                <ul>
+                  <li><a href="#sa">Savings Accounts</a></li>
+                  <li><a href="#Deposits">Deposits</a></li>
+                  <li><a href="#ca">Current Accounts</a></li>
+                  <li><a href="#ca">Current Accounts</a></li>
+                </ul>
+              </div>
+              <div class="col-3">
+                <h3>Main Accounts</h3>
+                <ul>
+                  <li><a href="#sa">Savings Accounts</a></li>
+                  <li><a href="#Deposits">Deposits</a></li>
+                  <li><a href="#ca">Current Accounts</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <main>
+        <section class="hero position-relative">
+          <div class="container d-flex">
+            <div class="hero__text">
+              <h1>VoolayVoo</h1>
+              <p class="my-3">
+                VoolayVoo informs you of new products, services, and offerings
+                from your most favored and trusted retailers, restaurants, food
+                trucks, entertainment, sports, and recreation venues, etc., when
+                you want or need them.
+              </p>
+              <div class="hero__button_container">
+                <button><span>Explore more</span></button>
+                <button class="ms-2">
+                  <span>Show Map </span>
+                  <svg width="36" height="38" viewBox="0 0 36 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path opacity="0.5"
+                      d="M8 13.5863C8 7.73964 12.701 3 18.5 3C24.299 3 29 7.73964 29 13.5863C29 19.3872 25.6487 26.1561 20.4201 28.5769C19.2012 29.1411 17.7988 29.1411 16.5799 28.5769C11.3512 26.1561 8 19.3872 8 13.5863Z"
+                      stroke="#E60023" stroke-width="3.75" />
+                    <path
+                      d="M21 15.5C21 17.1569 19.6569 18.5 18 18.5C16.3431 18.5 15 17.1569 15 15.5C15 13.8431 16.3431 12.5 18 12.5C19.6569 12.5 21 13.8431 21 15.5Z"
+                      stroke="#E60023" stroke-width="3.75" />
+                    <path
+                      d="M31.4408 25.25C32.4389 26.1538 33 27.1724 33 28.25C33 31.978 26.2842 35 18 35C9.71573 35 3 31.978 3 28.25C3 27.1724 3.56118 26.1538 4.55921 25.25"
+                      stroke="#E60023" stroke-width="3.75" stroke-linecap="round" />
+                  </svg>
+                </button>
+              </div>
+            </div>
+    
+            <div class="hero__img">
+              <img src="./assets/hero/hero___bike.png" alt="" />
+              <!-- <img src="./assets/hero/hero_img.png" class="hero__img" alt="">
+    
+                        <img src="./assets/hero/bg.svg" class="hero__bg" alt=""> -->
+            </div>
+          </div>
+        </section>
+    
+        <!-- store section -->
+        <section class="store__cards__section position-relative">
+          <div class="store__mini_cards__section">
+            <div class="store__mini_cards__container container">
+              <div>
+                <img src="./assets/store_cards/mini_cards/left.svg" alt="" />
+              </div>
+              <div class="store__mini_card">
+                <div class="store__mini_card__img__container">
+                  <img
+                    src="./assets/store_cards/mini_cards/streamline_food-burger-drink-burger-fast-cook-cooking-nutrition-food.svg"
+                    alt="" />
+                </div>
+                <p>Food Store</p>
+              </div>
+              <div class="store__mini_card">
+                <div class="store__mini_card__img__container">
+                  <img src="./assets/store_cards/mini_cards/beach.svg" alt="" />
+                </div>
+                <p>Travel Agency</p>
+              </div>
+              <div class="store__mini_card">
+                <div class="store__mini_card__img__container">
+                  <img src="./assets/store_cards/mini_cards/iconamoon_shopping-bag-thin.svg" alt="" />
+                </div>
+                <p>Shopping</p>
+              </div>
+              <div class="store__mini_card">
+                <div class="store__mini_card__img__container">
+                  <img src="./assets/store_cards/mini_cards/drink.svg" alt="" />
+                </div>
+                <p>Restaurants</p>
+              </div>
+              <div class="store__mini_card">
+                <div class="store__mini_card__img__container">
+                  <img src="./assets/store_cards/mini_cards/cinema 1.svg" alt="" />
+                </div>
+                <p>Movie</p>
+              </div>
+              <div class="store__mini_card">
+                <div class="store__mini_card__img__container">
+                  <img src="./assets/store_cards/mini_cards/Entertainment.svg" alt="" />
+                </div>
+                <p>Entertainment</p>
+              </div>
+              <div>
+                <img src="./assets/store_cards/mini_cards/right.svg" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="container">
+            <h2>Voopons You <span> Will Love</span></h2>
+          </div>
+    
+          <div class="store__cards__container position-relative">
+            <div class="left_arrow">
+              <img src="./assets/store_cards/left.svg" alt="" />
+            </div>
+            <div class="store__card fashion">
+              <div class="store__card__ribbon">
+                <p>Expiring soon</p>
+                <img src="./assets/store_cards/ribbon.svg" alt="">
+              </div>
+              <div class="oval"></div>
+              <div class="store__card__img">
+               
+                <img src="./assets/store_cards/Character-holding-social-media-heart-button 1.png" alt="" />
+              </div>
+              
+              <div class="store__card__text">
+                <p>Off-the rock</p>
+                <h2>
+                  Fashion <br />
+                  Store
+                </h2>
+                <p>Flat 20% Off</p>
+                <button>Explore More</button>
+              </div>
+            </div>
+            <div class="store__card food">
+              <div class="oval"></div>
+             <div class="store__card__img">
+              <img src="./assets/store_cards/Group 764.png" alt="" />
+             </div>
+              <div class="store__card__text">
+                <p>Off-the rock</p>
+                <h2>
+                  Food <br />
+                  Delivery
+                </h2>
+                <p>Flat 20% Off</p>
+                <button>Explore More</button>
+              </div>
+            </div>
+            <div class="store__card fashion_2">
+              <div class="oval"></div>
+             <div class="store__card__img">
+              <img src="./assets/store_cards/Character-holding-social-media-heart-button 1.png" alt="" />
+             </div>
+              <div class="store__card__text">
+                <p>Off-the rock</p>
+                <h2>
+                  Fashion <br />
+                  Store
+                </h2>
+                <p>Flat 20% Off</p>
+                <button>Explore More</button>
+              </div>
+            </div>
+            <div class="right_arrow">
+              <img src="./assets/store_cards/right.svg" alt="" />
+            </div>
+          </div>
+        </section>
+    
+        <section class="works__rewards">
+          <div class="works">
+            <div class="works__overlay"></div>
+            <div class="container">
+              <h1>How it Works</h1>
+              <p>
+                VOOLAY-VOO “(what) do you want (to do)?” A Collaborative, Social,
+                Marketplace in the palm of your hand that creates an
+                interdependent and connected community of individuals who actively
+                engage local businesses and promoters of events and services.
+                VOOLAY-VOO provides users notifications of events, activities, and
+                collaborative efforts of businesses and promoters whom they
+                follow.
+              </p>
+            </div>
+          </div>
+          <div class="works_midsection_rewards position-relative">
+            <div class="works__rewards__cards__container d-flex align-items-center justify-content-between container">
+              <div class="works__rewards__card">
+                <div class="works__rewards__card__img__container">
+                  <img src="./assets/works__rewards/person.png" alt="" />
+                </div>
+                <p>Choose your <br> interest</p>
+              </div>
+              <div class="works__rewards__card">
+                <div class="works__rewards__card__img__container">
+                  <img src="./assets/works__rewards/activity.png" alt="" />
+                </div>
+                <p>Turn on your location and notification</p>
+    
+              </div>
+              <div class="works__rewards__card">
+                <div class="works__rewards__card__img__container">
+                  <img src="./assets/works__rewards/notification.png" alt="" />
+                </div>
+                <p>Receive Notifications of events, Promotors and Activties</p>
+              </div>
+              <div class="works__rewards__card">
+                <div class="works__rewards__card__img__container">
+                  <img src="./assets/works__rewards/share.png" alt="" />
+                </div>
+                <p>Share with Friends</p>
+              </div>
+            </div>
+            <button>Learn More</button>
+          </div>
+          <div class="rewards d-flex align-items-center">
+            <div class="container d-flex align-items-center justify-content-between">
+              <div>
+                <img src="./assets/works__rewards/3d-girl-character-pointing-her 1.png" alt="" />
+              </div>
+              <div class="rewards__texts">
+                <h1>Refer & Earn Rewards</h1>
+                <h2>Invite friends & business</h2>
+                <p>Refer a Friend and earn exciting rewards!</p>
+                <button>Refer Friend</button>
+              </div>
+              <div><img src="./assets/works__rewards/Frame.png" alt="" /></div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer>
+        <div class="row g-0 container m-auto justify-content-between pt-3">
+          <div class="col-4">
+            <img src="./assets/footer/Vector Voolay white 1.svg" alt="" />
+            <p>
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+              commodo ligula eget dolor. Lorem ipsum dolor sit amet, consectetuer
+              adipiscing elit. Aenean commodo ligula eget dolor.
+            </p>
+          </div>
+          <div class="col-2">
+            <h3>Quick Links</h3>
+            <ul>
+              <li><a href="#About">About</a></li>
+              <li><a href="#Contact">Contact</a></li>
+              <li><a href="#Terms&Conditions">Terms & Conditions</a></li>
+              <li><a href="#PrivacyPolicy">Privacy Policy</a></li>
+              <li><a href="#HowitWorks">How it Works</a></li>
+            </ul>
+          </div>
+          <div class="col-2">
+            <h3>Our Information</h3>
+            <ul>
+              <li><a href="#Events">Events</a></li>
+              <li><a href="#Voopons">Voopons</a></li>
+              <li><a href="#Events">Events</a></li>
+              <li><a href="#Businesses">Businesses</a></li>
+              <li><a href="#Promoters">Promoters</a></li>
+            </ul>
+          </div>
+          <div class="col-2">
+            <h3>Our Socialss</h3>
+            <ul>
+              <li>
+                <a href="#About"><img src="./assets/footer/facebook.png" alt="" class="me-1" />Facebook</a>
+              </li>
+              <li>
+                <a href="#About"><img src="./assets/footer/insta.png" alt="" class="me-1" />Instagram</a>
+              </li>
+              <li>
+                <a href="#About"><img src="./assets/footer/youtube.png" alt="" class="me-1" />Youtube</a>
+              </li>
+              <li>
+                <a href="#About"><img src="./assets/footer/tiktok.png" alt="" class="me-1" />Tik Tok</a>
+              </li>
+              <li>
+                <a href="#About"><img src="./assets/footer/truth.png" alt="" class="me-1" />Truth</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- <div class="footer__line">
+                <span>Copyright ©2023. All Rights Reserved.</span> -->
+    
+        <div class="footer__copyright">
+          <svg xmlns="http://www.w3.org/2000/svg" width="1367" height="1" viewBox="0 0 1367 1" fill="none">
+            <path opacity="0.1" fill-rule="evenodd" clip-rule="evenodd"
+              d="M1.73115 -0.000513971H1365.27C1365.77 -0.000513971 1366.18 0.223679 1366.18 0.499484C1366.18 0.775829 1365.77 0.999485 1365.27 0.999485H1.73115C1.22736 0.999485 0.82077 0.775829 0.82077 0.499484C0.82077 0.223679 1.22736 -0.000513971 1.73115 -0.000513971Z"
+              fill="white" />
+          </svg>
+          <p>Copyright ©2023. All Rights Reserved.</p>
+        </div>
+      </footer>
     <script src="./js/bootstrap.bundle.min.js"></script>
     <script src="./js/script.js"></script>
 </body>
