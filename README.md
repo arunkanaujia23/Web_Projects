@@ -23,3 +23,6 @@ A web application made with HTML, CSS, and JavaScript. Where we can flip cards t
 
 ##  Todo List | [Code](https://github.com/arunkanaujia23/Web_Projects/tree/Todo_List) | [Live](https://mellifluous-strudel-846c7d.netlify.app/)
 A web application made with HTML, CSS, and JavaScript. In this we can add todo task.
+
+## Word Counter | [Code](https://github.com/arunkanaujia23/Web_Projects/tree/Word_Counter) | [Live](https://heroic-sundae-e65f73.netlify.app/)
+A web application created using HTML, CSS, and JavaScript in which we count the characters and words that we typed
