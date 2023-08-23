@@ -11,14 +11,28 @@
     <script src="https://kit.fontawesome.com/917aa4b7d7.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/style.css">
 
-    <title>Bootstrap Template</title>
+    <title>Word Counter</title>
 </head>
 
 <body>
+    <header class="p-2">
+        <h1 class="text-center">Word Counter</h1>
+    </header>
+    <main class="container d-flex align-items-center justify-content-center ">
 
-    <main class="text-center">
+        <div class="card mt-5">
+            <div class="card-body">
+                <label for="counter" class="form-label">Write SomeThing</label>
+                <textarea name="counter" class="form-control" id="counter" cols="50" rows="10"></textarea>
+                <div>
+                    <div class="d-flex justify-content-between">
+                        <div id="show"></div>
+                        <div id="show2"></div>
+                    </div>
 
-        <h1 class="display-1">Bootstrap Template</h1>
+                </div>
+            </div>
+        </div>
     </main>
     <script src="./js/bootstrap.bundle.min.js"></script>
     <script src="./js/script.js"></script>
