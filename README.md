@@ -1,0 +1,2 @@
+#  Expanding Cards | [Code](https://github.com/arunkanaujia23/Web_Projects/tree/Expanding_Cards) | [Live](https://spectacular-chaja-54f005.netlify.app/)
+A web application made with HTML, CSS, and Javascript. When we click on a card, it automatically expands.
