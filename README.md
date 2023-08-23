@@ -1,0 +1,2 @@
+#  Jokes Teller | [Code](https://github.com/arunkanaujia23/Web_Projects/tree/Jokes_Teller) | [Live](https://bucolic-youtiao-211580.netlify.app/)
+A web application made with HTML, CSS, Javascript, and API. In we fetch jokes from the jokes API and we can listen to jokes and read jokes.
