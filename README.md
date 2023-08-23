@@ -26,3 +26,6 @@ A web application made with HTML, CSS, and JavaScript. In this we can add todo t
 
 ## Word Counter | [Code](https://github.com/arunkanaujia23/Web_Projects/tree/Word_Counter) | [Live](https://heroic-sundae-e65f73.netlify.app/)
 A web application created using HTML, CSS, and JavaScript in which we count the characters and words that we typed
+
+## Quote Generator | [Code](https://github.com/arunkanaujia23/Web_Projects/tree/Quote_Generator) | [Live](https://resilient-raindrop-ed6642.netlify.app//)
+A web application created using HTML, CSS, and JavaScript.In this section, we pull random quotes from the API and display them.
