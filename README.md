@@ -1,0 +1,2 @@
+#  Light and Dark | [Code](https://github.com/arunkanaujia23/Web_Projects/tree/Light_and_Dark) | [Live](https://visionary-sawine-56f3de.netlify.app/)
+A web application made with HTML, CSS, and JavaScript. In which we can change the theme into a dark and light theme.
