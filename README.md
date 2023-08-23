@@ -20,3 +20,6 @@ A web application made with HTML, CSS, and JavaScript. In which we can change th
 
 ##  Memory Flip Game | [Code](https://github.com/arunkanaujia23/Web_Projects/tree/Memory_Flip_Game) | [Live](https://superb-bublanina-0a8a7e.netlify.app/)
 A web application made with HTML, CSS, and JavaScript. Where we can flip cards to find pairs of matched cards in a memory game.
+
+##  Todo List | [Code](https://github.com/arunkanaujia23/Web_Projects/tree/Todo_List) | [Live](https://mellifluous-strudel-846c7d.netlify.app/)
+A web application made with HTML, CSS, and JavaScript. In this we can add todo task.
