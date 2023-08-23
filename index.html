@@ -11,14 +11,22 @@
     <script src="https://kit.fontawesome.com/917aa4b7d7.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/style.css">
 
-    <title>Bootstrap Template</title>
+    <title>Todo List</title>
 </head>
 
 <body>
 
-    <main class="text-center">
+    <main>
 
-        <h1 class="display-1">Bootstrap Template</h1>
+        <h1>todos</h1>
+        <div class="mb-2">
+            <kbd>Lift click to complete todo </kbd> <kbd> Click to delete todo</kbd>
+        </div>
+        <form action="" id="form">
+            <input type="search" class="input" id="input" placeholder="Enter todo" autocomplete="off">
+            <ol class="todos" id="todos">
+            </ol>
+        </form>
     </main>
     <script src="./js/bootstrap.bundle.min.js"></script>
     <script src="./js/script.js"></script>
